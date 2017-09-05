@@ -29,7 +29,7 @@ SlitScan = function () {
 				})
 			})
 		},
-		slices: 90,
+		slices: 60,
 		mode: 'vertical',
 	}
 
@@ -86,6 +86,7 @@ SlitScan = function () {
 			video: {
 				mandatory: {
 					sourceId: cameraID
+					{ minFrameRate: 60 }
 				},
 				optional: [
 					{ minWidth: 1280 },
