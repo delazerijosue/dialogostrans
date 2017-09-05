@@ -29,7 +29,7 @@ SlitScan = function () {
 				})
 			})
 		},
-		slices: 90,
+		slices: 60,
 		mode: 'vertical',
 	}
 
