@@ -86,7 +86,7 @@ SlitScan = function () {
 			video: {
 				mandatory: {
 					sourceId: cameraID
-					{ minFrameRate: 30 }
+					
 				},
 				optional: [
 					{ minWidth: 1280 },
